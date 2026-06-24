@@ -238,7 +238,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&amp;display=swap">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <style>
     .skip-link { position: absolute; top: 0; left: 0; transform: translateY(-200%); padding: 12px 18px; background: var(--bg-dark, #1a1a1a); color: var(--text-light, #fff); font-weight: 600; border-radius: 0 0 8px 0; z-index: 10000; }
     .skip-link:focus { transform: none; outline: 2px solid var(--ring, #fff); outline-offset: 2px; }
@@ -355,16 +355,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -838,109 +838,106 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim">
-  <div class="index-hero-section__bg">
     
-  </div>
 
-  <div class="index-hero-section__content">
-    <div class="index-hero-section__headline-wrapper">
-      <h1 class="index-hero-section__headline" style="color: #1A1A1A !important">משכפלים הכל</h1>
-    </div>
-    
-    <div class="index-hero-section__logo-area">
-      <div class="index-hero-section__stamp">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="index-hero-section__stamp-svg" data-element-type="icon" data-icon-type="svg">
-          <circle cx="40" cy="20" r="12" fill="currentColor" opacity="0.3"/>
-          <path d="M20 80 Q40 40 60 80 Z" fill="currentColor"/>
-        </svg>
-      </div>
-      <div class="index-hero-section__logo-text">
-        <span class="index-hero-section__logo-line" style="color: #1A1A1A !important">א.א. יצור והדפסות</span>
-        <span class="index-hero-section__logo-subline" style="color: #1A1A1A !important">דפוס איכותי לכל מטרה</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section data-band-index="1" class="index-services-section" data-layout-spec="בית-services">
+<section data-band-index="1" class="index-services-section" data-layout-spec="בית-services" id="index-services-section">
   <div class="index-services-section__container">
     <div class="index-services-section__header">
       <h2 class="index-services-section__title">שירותי הדפסה מקצועיים</h2>
-      <p class="index-services-section__subtitle">מגוון רחב של פתרונות הדפסה איכותיים לכל צורך – מעסקים קטנים ועד פרויקטים גדולים</p>
+      <p class="index-services-section__subtitle" style="color: rgb(26, 26, 26) !important;">מגוון רחב של פתרונות הדפסה איכותיים לכל צורך – מעסקים קטנים ועד פרויקטים גדולים</p>
     </div>
     <div class="index-services-section__grid">
       <!-- Card 1: UV-DTF -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" style="background-color: rgb(255, 255, 255) !important; padding: 24px !important; box-sizing: border-box; grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;" data-grid-item-index="0">
+        <div class="index-services-section__card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-id="icon-1782301456438-gdi06z9p8-add-1782301461819-854ok2">
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.5"></circle>
+          </svg>
+        </div>
+        <h3 class="index-services-section__card-title" >כותרת משנה</h3>
+        <p class="index-services-section__card-desc" >טקסט כאן</p>
+      </article><article class="index-services-section__card" style="background-color: rgb(255, 255, 255) !important; padding: 24px !important; box-sizing: border-box; grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;" data-grid-item-index="1">
+        <div class="index-services-section__card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-id="icon-1782301456438-gdi06z9p8">
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.5"></circle>
+          </svg>
+        </div>
+        <h3 class="index-services-section__card-title" >כותרת משנה</h3>
+        <p class="index-services-section__card-desc" >טקסט כאן</p>
+      </article><article class="index-services-section__card" data-grid-item-index="2">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
-            <path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.5"></circle>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">הדפסת UV-DTF</h3>
         <p class="index-services-section__card-desc">טכנולוגיית הדפסה מתקדמת על מגוון משטחים – טקסטיל, זכוכית, עץ ועוד</p>
       </article>
       <!-- Card 2: Booklets -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="3">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="12" y="8" width="24" height="32" rx="2" stroke="currentColor" stroke-width="2"/>
-            <line x1="16" y1="16" x2="32" y2="16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <line x1="16" y1="22" x2="28" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <line x1="16" y1="28" x2="32" y2="28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <line x1="16" y1="34" x2="24" y2="34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="12" y="8" width="24" height="32" rx="2" stroke="currentColor" stroke-width="2"></rect>
+            <line x1="16" y1="16" x2="32" y2="16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            <line x1="16" y1="22" x2="28" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            <line x1="16" y1="28" x2="32" y2="28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            <line x1="16" y1="34" x2="24" y2="34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">חוברות וקטלוגים</h3>
         <p class="index-services-section__card-desc">חוברות מודפסות באיכות גבוהה, כריכה רכה או קשה, עם גימורים יוקרתיים</p>
       </article>
       <!-- Card 3: Stickers -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="4">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="10" width="28" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
-            <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M24 16v16M16 24h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="10" y="10" width="28" height="28" rx="4" stroke="currentColor" stroke-width="2"></rect>
+            <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="1.5"></circle>
+            <path d="M24 16v16M16 24h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">מדבקות איכותיות</h3>
         <p class="index-services-section__card-desc">מדבקות עמידות למים ושמש, חיתוך מדויק לפי צורה, הדפסה צבעונית ועשירה</p>
       </article>
       <!-- Card 4: Wide Format -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="5">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="6" y="14" width="36" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
-            <path d="M6 24h36" stroke="currentColor" stroke-width="1.5"/>
-            <rect x="12" y="18" width="6" height="12" rx="1" fill="currentColor" opacity="0.3"/>
-            <rect x="22" y="18" width="6" height="12" rx="1" fill="currentColor" opacity="0.3"/>
-            <rect x="32" y="18" width="4" height="12" rx="1" fill="currentColor" opacity="0.3"/>
+            <rect x="6" y="14" width="36" height="20" rx="2" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M6 24h36" stroke="currentColor" stroke-width="1.5"></path>
+            <rect x="12" y="18" width="6" height="12" rx="1" fill="currentColor" opacity="0.3"></rect>
+            <rect x="22" y="18" width="6" height="12" rx="1" fill="currentColor" opacity="0.3"></rect>
+            <rect x="32" y="18" width="4" height="12" rx="1" fill="currentColor" opacity="0.3"></rect>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">פורמט רחב</h3>
         <p class="index-services-section__card-desc">שלטי חוצות, באנרים, פוסטרים והדפסות ענק ברזולוציה גבוהה ובצבעים חיים</p>
       </article>
       <!-- Card 5: Die-Cut -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="6">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24 6L30 12L42 14L34 22L36 34L24 28L12 34L14 22L6 14L18 12L24 6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-            <circle cx="24" cy="20" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M24 6L30 12L42 14L34 22L36 34L24 28L12 34L14 22L6 14L18 12L24 6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+            <circle cx="24" cy="20" r="4" stroke="currentColor" stroke-width="1.5"></circle>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">חיתוך לפי צורה</h3>
         <p class="index-services-section__card-desc">חיתוכים מותאמים אישית – צורות ייחודיות, כרטיסי ביקור בעיצוב מיוחד, אריזות</p>
       </article>
       <!-- Card 6: Business Cards -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="7">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
-            <line x1="16" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <line x1="16" y1="26" x2="28" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <circle cx="12" cy="20" r="1.5" fill="currentColor"/>
+            <rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"></rect>
+            <line x1="16" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            <line x1="16" y1="26" x2="28" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            <circle cx="12" cy="20" r="1.5" fill="currentColor"></circle>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">כרטיסי ביקור</h3>
@@ -954,9 +951,9 @@
   <!-- Decorative motif (subtle, bottom-end overlap) -->
   <div class="index-services-section__decor" aria-hidden="true">
     <svg viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="180" cy="60" r="40" stroke="currentColor" stroke-width="1.5" opacity="0.15"/>
-      <circle cx="160" cy="70" r="20" stroke="currentColor" stroke-width="1" opacity="0.1"/>
-      <path d="M0 80 L30 50 L60 80" stroke="currentColor" stroke-width="1.5" opacity="0.12" fill="none"/>
+      <circle cx="180" cy="60" r="40" stroke="currentColor" stroke-width="1.5" opacity="0.15"></circle>
+      <circle cx="160" cy="70" r="20" stroke="currentColor" stroke-width="1" opacity="0.1"></circle>
+      <path d="M0 80 L30 50 L60 80" stroke="currentColor" stroke-width="1.5" opacity="0.12" fill="none"></path>
     </svg>
   </div>
 </section>
@@ -968,8 +965,8 @@
       <div class="index-features-section__stat" data-aos="fade-up">
         <div class="index-features-section__stat-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
-            <path d="M12 22L18 28L28 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M12 22L18 28L28 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <div class="index-features-section__stat-number">15+</div>
@@ -980,8 +977,8 @@
       <div class="index-features-section__stat" data-aos="fade-up" data-aos-delay="100">
         <div class="index-features-section__stat-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 8C13.3726 8 8 13.3726 8 20C8 26.6274 13.3726 32 20 32C26.6274 32 32 26.6274 32 20C32 13.3726 26.6274 8 20 8Z" stroke="currentColor" stroke-width="2"/>
-            <path d="M20 14V20L24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M20 8C13.3726 8 8 13.3726 8 20C8 26.6274 13.3726 32 20 32C26.6274 32 32 26.6274 32 20C32 13.3726 26.6274 8 20 8Z" stroke="currentColor" stroke-width="2"></path>
+            <path d="M20 14V20L24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <div class="index-features-section__stat-number">24<span class="index-features-section__stat-unit">/7</span></div>
@@ -992,10 +989,10 @@
       <div class="index-features-section__stat" data-aos="fade-up" data-aos-delay="200">
         <div class="index-features-section__stat-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="6" y="10" width="28" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
-            <path d="M14 22H26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M14 26H22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="30" cy="14" r="4" fill="currentColor"/>
+            <rect x="6" y="10" width="28" height="20" rx="2" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M14 22H26" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M14 26H22" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="30" cy="14" r="4" fill="currentColor"></circle>
           </svg>
         </div>
         <div class="index-features-section__stat-number">5</div>
@@ -1006,9 +1003,9 @@
       <div class="index-features-section__stat" data-aos="fade-up" data-aos-delay="300">
         <div class="index-features-section__stat-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 30L20 8L32 30" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="20" cy="20" r="3" fill="currentColor"/>
-            <path d="M12 30H28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M8 30L20 8L32 30" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="20" cy="20" r="3" fill="currentColor"></circle>
+            <path d="M12 30H28" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <div class="index-features-section__stat-number">3K+</div>
@@ -1100,11 +1097,11 @@
       <!-- Testimonial 1 -->
       <article class="index-testimonials-section__card">
         <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
           <p>"השירות של א.א. יצור והדפסות פשוט מעולה! הזמנו חוברות לאירוע חברה והתוצאה הייתה מדהימה. האיכות, הדיוק בצבעים והמהירות שבה קיבלנו את ההזמנה עלו על כל הציפיות שלנו. ממליץ בחום!"</p>
@@ -1123,11 +1120,11 @@
       <!-- Testimonial 2 -->
       <article class="index-testimonials-section__card">
         <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
           <p>"הייתי צריכה מדבקות UV-DTF בהתאמה אישית לעסק שלי, והתוצאה פשוט מושלמת. הצוות היה סבלני, מקצועי ונתן לי ייעוץ מדויק. ההדפסה יצאה חדה וברורה, ואפילו קיבלתי את ההזמנה לפני הזמן!"</p>
@@ -1146,11 +1143,11 @@
       <!-- Testimonial 3 -->
       <article class="index-testimonials-section__card">
         <div class="index-testimonials-section__stars" aria-label="5 כוכבים">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
           <p>"הזמנו שילוט בפורמט רחב לבית הספר, והעבודה הייתה יוצאת מן הכלל. ההדפסה עמידה, הצבעים חיים והגרפיקה יצאה בדיוק כמו שביקשנו. תודה רבה על שירות אמין ומהיר – נחזור שוב!"</p>
@@ -1177,11 +1174,11 @@
       <div class="index-final-cta-section__actions">
         <a href="/contact" class="index-final-cta-section__btn index-final-cta-section__btn--primary">
           <span>צור קשר</span>
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"></path><path d="M22 2L15 22L11 13L2 9L22 2"></path></svg>
         </a>
         <a href="/services" class="index-final-cta-section__btn index-final-cta-section__btn--secondary">
           <span>לשירותים שלנו</span>
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18L15 12L9 6"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18L15 12L9 6"></path></svg>
         </a>
       </div>
     </div>
@@ -1189,11 +1186,11 @@
   <!-- Decorative SVG motif at bottom end -->
   <div class="index-final-cta-section__decor" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="2" opacity="0.12">
-      <circle cx="100" cy="100" r="80"/>
-      <circle cx="100" cy="100" r="50"/>
-      <circle cx="100" cy="100" r="20"/>
-      <path d="M100 20L100 180"/>
-      <path d="M20 100L180 100"/>
+      <circle cx="100" cy="100" r="80"></circle>
+      <circle cx="100" cy="100" r="50"></circle>
+      <circle cx="100" cy="100" r="20"></circle>
+      <path d="M100 20L100 180"></path>
+      <path d="M20 100L180 100"></path>
     </svg>
   </div>
 </section>
