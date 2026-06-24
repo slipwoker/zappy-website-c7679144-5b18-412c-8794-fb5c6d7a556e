@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://-c7679144.zappy5.app
+https://example.com
 בית דפוס מוביל עם שירותי הדפסה זולים ואונליין: UV-DTF, חוברות, מדבקות, שילוט רחב וצורות מותאמות אישית. איכות ללא פשרות, משלוח עד הבית. התחילו להדפיס עוד היום!
 
 ### שירותים
-https://-c7679144.zappy5.app/services
+https://example.com/services
 גלו את כל שירותי ההדפסה הזולים שלנו: הדפסות UV-DTF, חוברות, מדבקות, פורמט רחב וחיתוכים מיוחדים. פתרונות דפוס דיגיטליים לכל צורך, בהתאמה אישית מלאה. כנסו לבחור את השירות המושלם!
 
 ### אודות
-https://-c7679144.zappy5.app/about
+https://example.com/about
 הכירו את א.א. יצור והדפסות – בית דפוס מקצועי עם תשוקה לאיכות וחדשנות. אנו מתמחים בשירותי הדפסה זולים, דיגיטליים ורחבי פורמט, עם דגש על שירות אישי ומדויק. בואו ללמוד מי עומד מאחורי המוצר.
 
 ### צור קשר
-https://-c7679144.zappy5.app/contact
+https://example.com/contact
 מחפשים שירותי הדפסה זולים ואמינים? דברו איתנו! בין אם אתם צריכים הדפסת UV-DTF, חוברות או שילוט – אנחנו כאן עם ייעוץ חינם והצעת מחיר אטרקטיבית. השאירו פרטים ונחזור במהירות!
 
 ### תודה על פנייתך | א.א. יצור והדפסות
-https://-c7679144.zappy5.app/thank-you
+https://example.com/thank-you
 א.א. יצור והדפסות - תודה על פנייתך | א.א. יצור והדפסות
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-c7679144.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-c7679144.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-c7679144.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-c7679144.zappy5.app/contact
-- Endpoint: https://-c7679144.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -84,6 +84,6 @@ Printing Services
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-c7679144.zappy5.app/sitemap.xml
-- Robots: https://-c7679144.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-c7679144.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
