@@ -1,0 +1,89 @@
+# א.א. יצור והדפסות — Generative Engine Optimization Map
+
+> A professional printing house offering a wide range of printing services including UV-DTF printing, booklets, stickers, wide-format printing, and custom die-cut shapes. The business appears to cater to clients who need diverse and specialized print products, combining both digital and large-format printing capabilities.
+
+---
+
+## Pages
+
+### בית
+https://-c7679144.zappy5.app
+בית דפוס מוביל עם שירותי הדפסה זולים ואונליין: UV-DTF, חוברות, מדבקות, שילוט רחב וצורות מותאמות אישית. איכות ללא פשרות, משלוח עד הבית. התחילו להדפיס עוד היום!
+
+### שירותים
+https://-c7679144.zappy5.app/services
+גלו את כל שירותי ההדפסה הזולים שלנו: הדפסות UV-DTF, חוברות, מדבקות, פורמט רחב וחיתוכים מיוחדים. פתרונות דפוס דיגיטליים לכל צורך, בהתאמה אישית מלאה. כנסו לבחור את השירות המושלם!
+
+### אודות
+https://-c7679144.zappy5.app/about
+הכירו את א.א. יצור והדפסות – בית דפוס מקצועי עם תשוקה לאיכות וחדשנות. אנו מתמחים בשירותי הדפסה זולים, דיגיטליים ורחבי פורמט, עם דגש על שירות אישי ומדויק. בואו ללמוד מי עומד מאחורי המוצר.
+
+### צור קשר
+https://-c7679144.zappy5.app/contact
+מחפשים שירותי הדפסה זולים ואמינים? דברו איתנו! בין אם אתם צריכים הדפסת UV-DTF, חוברות או שילוט – אנחנו כאן עם ייעוץ חינם והצעת מחיר אטרקטיבית. השאירו פרטים ונחזור במהירות!
+
+### תודה על פנייתך | א.א. יצור והדפסות
+https://-c7679144.zappy5.app/thank-you
+א.א. יצור והדפסות - תודה על פנייתך | א.א. יצור והדפסות
+
+## Legal & Policy
+
+### Privacy Policy
+https://-c7679144.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-c7679144.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-c7679144.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-c7679144.zappy5.app/contact
+- Endpoint: https://-c7679144.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About א.א. יצור והדפסות
+A professional printing house offering a wide range of printing services including UV-DTF printing, booklets, stickers, wide-format printing, and custom die-cut shapes. The business appears to cater to clients who need diverse and specialized print products, combining both digital and large-format printing capabilities.
+
+## Services/Products
+- UV-DTF
+- חוברות
+- מדבקות
+- פורמט רחב
+- חיתוך לפי צורה
+
+## Target Audience
+- בעלי עסקים קטנים
+- מפיקי אירועים
+- מוסדות חינוך
+
+## Industry
+Printing Services
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-c7679144.zappy5.app/sitemap.xml
+- Robots: https://-c7679144.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-c7679144.zappy5.app/llms-full.txt
